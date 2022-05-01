@@ -23,7 +23,7 @@ h1 {
 
 .cont-box {
     background-color: lightgray;
-    padding: 0 20px;
+    padding: 20px 20px;
     color: #000;
     border: 1px solid black;
 }
@@ -53,4 +53,84 @@ h1 {
     background-color: lightcyan;
 }
 
+.top-link, .top-link:visited {
+    text-decoration: none;
+    color: red;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    border-radius: 0px;
+    background-color: gray;
+}
+
+.navbar-brand{
+    font-size: 35px;
+    color: white;
+    padding-left: 25px;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.main-title{
+    margin-bottom: 15px;
+    text-align: center;
+    color: #ff4532;
+    font-size: 50px;
+    font-family: cursive, sans-serif;
+    font-weight: bold;
+}
+
+.nav{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav{
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-toggle{
+    border: 2px solid white;
+    margin-right: 25px;
+}
+
+
+.icon-bar{
+    background-color: white;
+}
 /* Large device (desktop) */
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float:left;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6,.col-md-12 {
+       width: 100%;
+    }
+    
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+    .content-name{
+        margin-right: 30px;
+    }
+}
+
