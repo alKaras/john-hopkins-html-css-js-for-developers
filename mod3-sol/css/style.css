@@ -1,0 +1,56 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+}
+
+.section1,
+.section2,
+.section3 {
+    float: left;
+    padding: 10px;
+}
+
+.cont-box {
+    background-color: lightgray;
+    padding: 0 20px;
+    color: #000;
+    border: 1px solid black;
+}
+
+#chicken,
+#beef,
+#sushi {
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 0;
+    width: 120px;
+    height: 30px;
+    float: right;
+    font-weight: 800;
+    padding-top: 5px;
+}
+
+#chicken {
+    background-color: lightblue;
+}
+
+#beef {
+    background-color: lightpink;
+}
+
+#sushi {
+    background-color: lightcyan;
+}
+
+/* Large device (desktop) */
